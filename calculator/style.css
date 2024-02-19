@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(75, 52, 112);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    min-height: 500px;
+    margin-top: 50px;
+  }
+
+  .calculator {
+    width: 400px;
+    border: 4px black solid;
+    border-radius: 35px;
+    padding: 20px;
+    background: linear-gradient(black, grey);
+}
+
+  .screen {
+    padding: 10px 20px;
+    border: 2px black solid;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+
+  .previous-output {
+    min-height: 32px;
+    font-size: 20px;
+  }
+
+  .current-output{
+    min-height: 64px;
+    font-size: 40px;
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+  }
+
+button {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+    padding: 15px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: beige;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .span-2 {
+    grid-column: span 2;
+    background-color: rgba(255, 166, 0, 0.959);
+  }
+
+
+.btn:hover {
+    background-color: var(--btn-hover);
+    }
+
+    .btn:active {
+      background-color: var(--btn-active);
+    }
+    
+    .btn-red {
+      background-color: var(--btn-red);
+    }
+    
+    .btn-red:hover {
+      background-color: var(--btn-red-hover);
+    }
+    
+    .btn-red:active {
+      background-color: var(--btn-red-active);
+    }
+    
+    .btn-blue {
+      background-color: var(--btn-blue);
+    }
+    
+    .btn-blue:hover {
+      background-color: var(--btn-blue-hover);
+    }
+    
+    .btn-blue:active {
+      background-color: var(--btn-blue-active);
+    }
+.btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.btn:active {
+  background-color: var(--btn-active);
+}
+
+.btn-red {
+  background-color: var(--btn-red);
+}
+
+.btn-red:hover {
+  background-color: var(--btn-red-hover);
+}
+
+.btn-red:active {
+  background-color: var(--btn-red-active);
+}
+
+.btn-blue {
+  background-color: var(--btn-blue);
+}
+
+.btn-blue:hover {
+  background-color: var(--btn-blue-hover);
+}
+
+.btn-blue:active {
+  background-color: var(--btn-blue-active);
+};
+
+  
+  .btn:active {
+    background-color: var(--btn-active);
+  }
+  
+  .btn-red {
+    background-color: var(--btn-red);
+  }
+  
+  .btn-red:hover {
+    background-color: var(--btn-red-hover);
+  }
+  
+  .btn-red:active {
+    background-color: var(--btn-red-active);
+  }
+  
+  .btn-blue {
+    background-color: var(--btn-blue);
+  }
+  
+  .btn-blue:hover {
+    background-color: var(--btn-blue-hover);
+  }
+  
+  .btn-blue:active {
+    background-color: var(--btn-blue-active);
+  }
