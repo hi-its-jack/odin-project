@@ -129,11 +129,8 @@ function operate(operator, a, b) {
     case '*':
       return multiply(a, b)
     case '÷':
-      if (b === 0) return null;
-      const sign = (a < 0) !== (b < 0) ? -1 : 1; // Determine the sign of the result
-      result = Math.abs(a) / Math.abs(b) * sign;
-      break;
-    default:
-      return null
+      if (b === 0) return "Error"; // Return an error string when dividing by zero
+      return divide(a, b);
   }
 }
+

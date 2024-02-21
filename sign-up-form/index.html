@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+      <div class="left">
+        <div class="overlay">
+          <div class="logo">
+            <img src="odin-lined.png" alt="Logo">
+          </div>
+          <h1>Odin Project</h1>
+        </div>
+        <p>Photo by <u>Halie West</u> on <u>Unsplash</u></p>
+      </div>
+      <div class="right">
+        <p>Fill out the form below to create an account:</p>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          
+          <label for="confirm_password">Confirm Password:</label>
+          <input type="password" id="confirm_password" name="confirm_password" required>
+          <p id="password_message"></p>
+          
+          <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+      </div>
+    </div>
+  </body>
+  </html>
